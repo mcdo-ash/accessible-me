@@ -1,3 +1,4 @@
+/* changed background to white to make contrast with text more accessible */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
@@ -68,4 +69,19 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skiplinks ul{
+  list-style: none;
+  position: relative;
+}
+
+.skiplinks a{
+  position: absolute;
+  top: -10em;
+}
+
+.skiplinks a:focus{
+  background-color:orange ;
+  top:0;
 }
