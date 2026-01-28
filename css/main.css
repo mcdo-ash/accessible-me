@@ -71,6 +71,7 @@ form button {
   padding: 2rem 0;
 }
 
+/* hiding skiplinks with position */
 .skiplinks ul{
   list-style: none;
   position: relative;
@@ -81,6 +82,7 @@ form button {
   top: -10em;
 }
 
+/* making skiplinks show when hovered with tab */
 .skiplinks a:focus{
   background-color:orange ;
   top:0;
