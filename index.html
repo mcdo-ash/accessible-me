@@ -40,13 +40,12 @@
       <img role="img" src="https://picsum.photos/1200/900" class="banner" alt="from around the world">
   </header>
   <!-- main added with role and id of main for accessibility and skiplink -->
-  <main role="main" id="main">
-    <div class="main-content">
+  <main role="main" id="main" class="main-content">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <!-- schema added to owner information container -->
-      <div itemscope itemtype="https://schema.org/Person" class="owner">
+      <article itemscope itemtype="https://schema.org/Person" class="owner">
         <!-- headings changed from h1 to give greater cascading importance -->
         <h2>Meet the owner</h2>
         <ul>
@@ -63,9 +62,9 @@
           Musicville, Danceistan
           B3T 0L0
         </p>
-      </div>
+      </article>
       <!-- div given id of contact for skiplink -->
-      <div class="contact-section" id="contact">
+      <article class="contact-section" id="contact">
         <h2>Contact Us</h2>
         <!-- form elements given labels and input roles for aria -->
         <form role="form" action="thanks.html">
@@ -79,8 +78,7 @@
           <textarea role="input" id="message"></textarea>
           <button role="button" type="submit">Send</button>
         </form>
-      </div>
-    </div>
+      </article>
   </main>
   <!-- footer element added with id of footer for skiplink -->
   <footer id="footer">
